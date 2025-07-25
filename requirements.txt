@@ -1,0 +1,6 @@
+Flask
+requests
+pandas
+pandas_ta
+sparklines
+numpy

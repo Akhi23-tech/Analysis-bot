@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  color: #c0c0c0;
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#terminal {
+  width: 90%;
+  max-width: 900px;
+  height: 90vh;
+  background-color: #000000;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#output {
+  flex: 1;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  margin-bottom: 5px;
+}
+
+.prompt {
+  display: flex;
+  align-items: center;
+}
+
+.prompt span {
+  margin-right: 5px;
+  color: #00ff5f;
+}
+
+#cmd {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #c0c0c0;
+  font-family: inherit;
+  font-size: 1em;
+}
